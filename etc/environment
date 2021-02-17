@@ -1,0 +1,11 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+# https://wiki.archlinux.org/index.php/Intel_graphics#DRI3_issues
+LIBGL_DRI3_DISABLE=1
+
+# https://wiki.archlinux.org/index.php/Intel_graphics#Font_and_screen_corruption_in_GTK_applications_(missing_glyphs_after_suspend/resume)
+COGL_ATLAS_DEFAULT_BLIT_MODE=framebuffer
